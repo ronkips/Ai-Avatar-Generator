@@ -7,7 +7,7 @@ const generateAction = async (req, res) => {
   const input = JSON.parse(req.body).input;
 
   const response = await fetch(
-    `https://api-inference.huggingface.co/models/buildspace/ai-avatar-generator`,
+    `https://api-inference.huggingface.co/models/Ronkips/ronkips_254`,
     {
       headers: {
         Authorization: `Bearer ${process.env.AUTH_KEY}`,
